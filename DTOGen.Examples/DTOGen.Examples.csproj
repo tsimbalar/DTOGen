@@ -52,6 +52,7 @@
     </Content>
     <Content Include="ToolsForDesignTimeOnly\DTOGen.dll" />
     <Content Include="ToolsForDesignTimeOnly\Newtonsoft.Json.dll" />
+    <Content Include="ToolsForDesignTimeOnly\README.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GeneratedTypes.tt">
