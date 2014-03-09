@@ -119,4 +119,6 @@ _Pvt_Extensions/
 ModelManifest.xml
 
 
-ToolsForDesignTimeOnly/
+DTOGen.Examples/ToolsForDesignTimeOnly/*.dll
+
+
