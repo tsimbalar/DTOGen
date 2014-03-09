@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOGen.Tests", "DTOGen.Tests\DTOGen.Tests.csproj", "{FCCCDBED-D3D7-42C9-B2F0-6178E9E9E8B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOGen", "DTOGen\DTOGen.csproj", "{6AA7B13D-062F-4D12-BA3F-724AF7BDFF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOGen.Examples", "DTOGen.Examples\DTOGen.Examples.csproj", "{F83BA81E-6C35-437D-B6C0-420E40A11487}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCCCDBED-D3D7-42C9-B2F0-6178E9E9E8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCCDBED-D3D7-42C9-B2F0-6178E9E9E8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCCDBED-D3D7-42C9-B2F0-6178E9E9E8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCCDBED-D3D7-42C9-B2F0-6178E9E9E8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA7B13D-062F-4D12-BA3F-724AF7BDFF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA7B13D-062F-4D12-BA3F-724AF7BDFF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA7B13D-062F-4D12-BA3F-724AF7BDFF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA7B13D-062F-4D12-BA3F-724AF7BDFF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83BA81E-6C35-437D-B6C0-420E40A11487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83BA81E-6C35-437D-B6C0-420E40A11487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83BA81E-6C35-437D-B6C0-420E40A11487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83BA81E-6C35-437D-B6C0-420E40A11487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,68 @@
+﻿{
+	Affectation:{
+		Id : "int",
+		IsPrincipale : "bool",
+		Statut : "int",
+		Bureau : "MiniBureau", // referencing another type
+		FonctionsSecondaires: [{
+			Id : "int",
+			Libelle : "string"
+		}],
+		Fonction : "MiniFonction", // referencing another type
+		Agent : "MiniAgent",
+		AddressesEmails : ["string"]		
+	},
+
+	// -------------------------------------------
+
+	Agent : {
+		Id : "int",
+		Nom : "string",
+		Prenom : "string",
+		NomDeFamille : "string",
+		Civilité : "string"
+	},
+
+	MiniAgent : {
+		Id : "int",
+		Prenom : "string",
+		Nom : "string"
+	},
+
+	// ------------------------------------------
+	Fonction : {
+		Id : "int",
+		Libelle : "string",
+		LibelleFeminin : "string"
+	},
+
+	MiniFonction : {
+		Id : "int",
+		Libelle : "string"
+	},
+
+	// ----------------------------------------
+	Bureau : {
+		Id : "int",
+		Libelle : "string",
+		LibelleCourt : "string",
+		TypeBureau : {
+			Id : "int",
+			Libelle : "string"
+		},
+		Entité : {
+			Id : "int",
+			Libelle : "string"
+		}
+	},
+
+	MiniBureau : {
+		Id : "int",
+		Libelle : "string",
+		LibelleCourt : "string",
+		TypeBureau : {
+			Id : "int",
+			Libelle : "string"
+		}
+	}
+}
